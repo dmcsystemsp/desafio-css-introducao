@@ -1,0 +1,143 @@
+:root {
+    --color-red: #F03C43;
+    --color-white: #fff;
+    --color-blue: #222374;
+    --color-light-gray: #ccc;
+    --color-black: #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
+
+a, a:hover{
+    color: unset;
+    text-decoration: none;
+}
+
+header{
+    background-color: var(--color-red);
+    color: var(--color-white);
+    height: 100px;
+}
+.container-nav{
+    display: flex;
+}
+.logo-header{
+    width: 99px;
+    height: 25px;
+    margin-top: 38px;
+    margin-left: 140px;
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+.img-rede-social{
+    width: 30px;
+    height: 30px;
+    margin-top: 35px;
+    margin-left: 955px;
+}
+.link-rede-social{
+    width: 85px;
+    height: 19px;
+    padding: 15px;
+    margin-top: 25px;
+    margin-right: 995px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.section-space{
+    margin: 0 auto;
+    background-color: var(--color-blue);
+    padding: 20px;
+}
+.section-space h1{
+    color: var(--color-white);
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 120px;
+    margin-bottom: 40px;
+}
+.space-content{
+    width: 100%;
+    max-width: 960px;
+    background-color: var(--color-light-gray);
+    color: var(--color-black);
+    border-radius: 8px;
+    margin-left: 120px;
+      
+}
+
+.space-content h2{
+    height: 27px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px;
+}
+.space-content p{
+    font-weight: 400;
+    margin: 20px;
+    padding: 3px;
+
+}
+
+.section-modalities{
+    background-color: var(--color-white);
+    margin: 0 auto;
+    padding: 20px;
+}
+.section-modalities h1{
+    color: var(--color-red);
+    height: 44px;
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 120px;
+    margin-bottom: 30px;
+}
+.modalities-content{
+    width: 100%;
+    max-width: 960px;
+    background-color: var(--color-blue);
+    margin-left: 120px;
+    border-radius: 8px;
+}
+.modalities-content h2{
+    color: var(--color-white);
+    height: 27px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px;
+
+}
+.modalities-content p{
+    color: var(--color-light-gray);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px;
+    padding: 10px;
+    margin: 15px;
+}
+
+footer{
+    background-color: var(--color-black);
+    color: var(--color-white);
+    margin: 0 auto;
+    padding: 60px;
+}
+.rede-instagram{
+    text-align: center;
+    padding: 20px;
+}
+.rede-twitter{
+    text-align: center;
+    padding: 10px;
+}
+.endereco{
+    padding: 20px;
+    text-align: center;
+}
